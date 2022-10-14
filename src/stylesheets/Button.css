@@ -1,0 +1,40 @@
+.button-cont {
+  min-height: 32px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2.8rem;  
+  background-color: #D61C4E;
+  color: #FAC213;
+  border-radius: 10px;
+  border: 2px solid #F77E21;
+  margin: 5px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+}
+.button-cont:hover {
+  background-color: #FEF9A7;
+  color: #850E35;
+}
+.button-cont:active {
+  background-color: #D8C962;
+  color: #E32249;
+  border-color: #665A48;
+  transition: 0s;
+}
+
+.operator {
+  background-color: #F77E21;
+  border-color: #D61C4E;
+  color: #850E35;
+}
+.operator:hover {
+  background-color: #C8DBBE;
+}
+.operator:active {
+  background-color: #D8C962;
+  transition: 0s;
+}
