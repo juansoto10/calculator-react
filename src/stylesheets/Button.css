@@ -1,5 +1,6 @@
 .button-cont {
   min-height: 32px;
+  height: 86%;
   display: flex;
   flex: 1 1;
   justify-content: center;
@@ -37,4 +38,11 @@
 .operator:active {
   background-color: #D8C962;
   transition: 0s;
+}
+
+@media (min-width: 700px) {
+  .button-cont {
+    font-size: 3.4rem;
+    border-radius: 18px;
+  }
 }
